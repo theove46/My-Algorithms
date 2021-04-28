@@ -68,9 +68,6 @@ int main()
 }
 
 
-/*
-    User Defined Functions
-*/
 void create_linked_list()
 {
     int val;
