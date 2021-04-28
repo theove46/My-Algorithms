@@ -47,7 +47,6 @@ int KT()
 	return 0;
 }
 
-/* A recursive utility function to solve Knight Tour problem */
 int solve(int x, int y, int movei, int sol[N][N], int xMove[], int yMove[])
 {
 	int k, next_x, next_y;
