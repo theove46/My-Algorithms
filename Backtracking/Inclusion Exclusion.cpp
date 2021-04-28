@@ -32,13 +32,13 @@ int recursion(int ara[], int i, int jlcm, int num, int tnum, int lim)
 int main()
 {
     int tnum, lim, i;
-    //cin >> lim;
-    lim = 1000;
-    //cin >> tnum;
-    tnum = 10;
-    //int ara[10];
-    //for(i=0; i<tnum; i++) cin >> ara[i];
-    int ara[] = {2, 3, 5, 6, 7, 11, 13, 15, 17, 23};
+    cin >> lim;
+    //lim = 1000;
+    cin >> tnum;
+    //tnum = 10;
+    int ara[10];
+    for(i=0; i<tnum; i++) cin >> ara[i];
+    //int ara[] = {2, 3, 5, 6, 7, 11, 13, 15, 17, 23};
     ans = 0;
     recursion(ara, 0, 1, 0, tnum, lim);
     cout << ans << endl;
